@@ -5,6 +5,12 @@ plugins {
 group 'com.yfy.groovy'
 version '1.0-SNAPSHOT'
 
+apply plugin :'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+
 repositories {
     mavenCentral()
 }
